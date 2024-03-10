@@ -19,9 +19,8 @@ effects = [1.0, 1.5, 2.0, 2.73, ]
 level = 3
 [["パワー"]]
 name = "連続ヨコ斬り速度"
-effects = [1.0, 1.18, ]
-level = 0
-to_next_level = 1
+effects = [1.0, 1.18, 1.37, 1.62, 2.0, 2.6]
+level = 3
 [["パワー"]]
 name = "???"
 effects = [1.0, ]
@@ -50,12 +49,12 @@ level = 1
 to_next_level = 3
 [["サポート"]]
 name = "インク効率(メイン)"
-effects = [1.0, ]
+effects = [1.0, 0.8, ]
 level = 1
 to_next_level = 3
 [["サポート"]]
 name = "インク効率(サブ)"
-effects = [1.0, ]
+effects = [1.0, 0.8, ]
 level = 1
 to_next_level = 3
 [["サポート"]]
@@ -75,7 +74,7 @@ level = 1
 to_next_level = 3
 [["サポート"]]
 name = "爆発ふき飛ばし"
-effects = [1.0, 1.17, 1.33]
+effects = [1.0, 1.17, 1.33, ]
 level = 1
 to_next_level = 3
 [["サポート"]]
@@ -110,7 +109,7 @@ to_next_level = 1
 
 [["レンジ"]]
 name = "メイン射程"
-effects = [1.0, ]
+effects = [1.0, 1.25, ]
 level = 3
 [["レンジ"]]
 name = "爆発サイズ"
@@ -143,10 +142,10 @@ effects = [1.0, 1.25, 1.5, ]
 level = 2
 to_next_level = 5
 [["レンジ"]]
-name = "???"
-effects = []
-level = 0
-to_next_level = 1
+name = "塗りドローンゲージ"
+effects = [0, 1, 2, 3, 4, 5]
+level = 1
+to_next_level = 3
 [["レンジ"]]
 name = "塗りラッキーコンボ"
 effects = [999999999, 40, ]
@@ -190,7 +189,7 @@ level = 1
 to_next_level = 3
 [["ムーブ"]]
 name = "トツゲキふき飛ばし"
-effects = []
+effects = [1.0, 1.17, 1.33, ]
 level = 1
 to_next_level = 3
 [["ムーブ"]]
@@ -264,24 +263,24 @@ name = "ドローンスプラッシュボム"
 effects = [999999999, 200, 160, 130, 100, ]
 level = 3
 [["ドローン"]]
-name = "???"
-effects = []
-level = 0
-to_next_level = 1
+name = "ドローンクイックボム"
+effects = [999999999, 180, ]
+level = 1
+to_next_level = 3
 [["ドローン"]]
 name = "ドローンメガホンレーザー"
 effects = [999999999, 500, 460, ]
 level = 3
 [["ドローン"]]
-name = "???"
+name = "ドローントルネード"
 effects = []
 level = 0
 to_next_level = 1
 [["ドローン"]]
-name = "???"
-effects = []
-level = 0
-to_next_level = 1
+name = "ドローントラップ"
+effects = [999999999, 190, ]
+level = 1
+to_next_level = 3
 [["ドローン"]]
 name = "???"
 effects = []
@@ -297,7 +296,7 @@ name = "時間ドローンゲージ"
 effects = [6, 7, 8, 9, 10, ]
 level = 3
 [["ドローン"]]
-name = "???"
-effects = []
-level = 0
-to_next_level = 1
+name = "撃破ドローンゲージ"
+effects = [0, 30, 40, 50, ]
+level = 2
+to_next_level = 5
