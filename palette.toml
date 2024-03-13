@@ -229,19 +229,16 @@ effects = [0.005, 0.01, ]
 level = 0
 [["ラッキー"]]
 name = "インクボトル確率"
-effects = [0.01, 0.04, ]
-level = 1
-to_next_level = 3
+effects = [0.01, 0.04, 0.07, 0.1, 0.13, 0.2]
+level = 3
 [["ラッキー"]]
 name = "スペシャルカンヅメ確率"
-effects = []
-level = 1
-to_next_level = 3
+effects = [0.01, 0.04, 0.07, 0.1, 0.13, 0.2]
+level = 3
 [["ラッキー"]]
 name = "ドローンバッテリー確率"
-effects = [0.0, 0.04, ]
-level = 1
-to_next_level = 3
+effects = [0.0, 0.04, 0.07, 0.1, 0.13, 0.2]
+level = 3
 [["ラッキー"]]
 name = "ラッキーボム確率"
 effects = [0.0, 0.15, 0.3, 0.45, 0.6, 0.9]
@@ -276,12 +273,11 @@ effects = [999999999, 500, 460, ]
 level = 3
 [["ドローン"]]
 name = "ドローントルネード"
-effects = [999999999, 550, 440]
-level = 0
-to_next_level = 1
+effects = [999999999, 550, 440, 360, 280, 180]
+level = 3
 [["ドローン"]]
 name = "ドローントラップ"
-effects = [999999999, 190, ]
+effects = [999999999, 190, 160, ]
 level = 1
 to_next_level = 3
 [["ドローン"]]
