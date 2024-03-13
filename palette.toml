@@ -1,11 +1,11 @@
 [["パワー"]]
 name = "インクショットダメージ"
-effects = [1.0, ]
+effects = [1.0, 1.05, 1.1, 1.15, 1.2, 1.5, 1.55, 1.6, ]
 level = 2
 to_next_level = 5
 [["パワー"]]
 name = "爆発ダメージ"
-effects = [1.0, 1.3, ]
+effects = [1.0, 1.3, 1.6, 1.9, 2.1, 3.0, ]
 level = 1
 to_next_level = 3
 [["パワー"]]
@@ -15,7 +15,10 @@ level = 1
 to_next_level = 3
 [["パワー"]]
 name = "メイン連射速度"
-effects = [1.0, 1.5, 2.0, 2.73, ]
+effects = [
+    [1.0, 1.5, 2.0, 2.73, ],
+    [1.0, 1.22, 1.41, ], # ローラー
+]
 level = 3
 [["パワー"]]
 name = "連続ヨコ斬り速度"
@@ -28,7 +31,7 @@ level = 0
 to_next_level = 1
 [["パワー"]]
 name = "メインショットダメージ(近)"
-effects = [1.0, ]
+effects = [1.0, 1.15, 1.3, 1.45, 1.6, ]
 level = 1
 to_next_level = 3
 [["パワー"]]
@@ -38,7 +41,7 @@ level = 1
 to_next_level = 3
 [["パワー"]]
 name = "インクパチパチ"
-effects = [1.0, 3.0, ]
+effects = [1.0, 3.0, 4.0, 5.0, 6.0, ]
 level = 1
 to_next_level = 3
 
@@ -64,7 +67,7 @@ level = 1
 to_next_level = 3
 [["サポート"]]
 name = "インクネバネバ"
-effects = []
+effects = [0.7, 0.45, ]
 level = 2
 to_next_level = 5
 [["サポート"]]
@@ -169,7 +172,7 @@ level = 1
 to_next_level = 3
 [["ムーブ"]]
 name = "塗り進み速度"
-effects = [1.0, ]
+effects = [1.0, 1.22, 1.45, 1.6, ]
 level = 1
 to_next_level = 3
 [["ムーブ"]]
@@ -241,23 +244,22 @@ level = 1
 to_next_level = 3
 [["ラッキー"]]
 name = "ラッキーボム確率"
-effects = [0.0, 0.15, 0.3, ]
-level = 1
-to_next_level = 3
+effects = [0.0, 0.15, 0.3, 0.45, 0.6, 0.9]
+level = 3
 [["ラッキー"]]
 name = "ディスクパーツ確率"
-effects = [0.01, 0.02, 0.03, ]
-level = 1
-to_next_level = 3
+effects = [0.01, 0.02, 0.03, 0.04, 0.05, 0.06]
+level = 3
 [["ラッキー"]]
 name = "ラッキーコンボ時間"
-effects = [3, 5, ]
-level = 0
+effects = [3, 5, 7, 9, 11, 20]
+level = 2
+to_next_level = 5
 [["ラッキー"]]
 name = "ラッキーコンボ最大数"
-effects = [10, 20, ]
-level = 1
-to_next_level = 3
+effects = [10, 20, 30, 40, ]
+level = 2
+to_next_level = 5
 
 [["ドローン"]]
 name = "ドローンスプラッシュボム"
@@ -283,18 +285,17 @@ effects = [999999999, 190, ]
 level = 1
 to_next_level = 3
 [["ドローン"]]
-name = "???"
-effects = []
-level = 0
-to_next_level = 1
+name = "ドローンスプリンクラー"
+effects = [999999999, 10, 8, 6, 4, 2]
+level = 2
+to_next_level = 5
 [["ドローン"]]
-name = "???"
-effects = []
-level = 0
-to_next_level = 1
+name = "ドローンアイテム"
+effects = [999999999, 600, 500, 400, 300, 200]
+level = 3
 [["ドローン"]]
 name = "時間ドローンゲージ"
-effects = [6, 7, 8, 9, 10, ]
+effects = [6, 7, 8, 9, 10, 11] # 11?
 level = 3
 [["ドローン"]]
 name = "撃破ドローンゲージ"
