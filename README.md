@@ -31,16 +31,12 @@ toml get palette.toml . | jq 'to_entries | map(.value) | flatten | group_by(.lev
 $ toml get palette.toml . | jq 'to_entries | map(.value) | flatten | group_by(.level) | map({level: .[0].level, length: length})'
 [
   {
-    "level": 0,
-    "length": 1
-  },
-  {
     "level": 1,
-    "length": 25
+    "length": 21
   },
   {
     "level": 2,
-    "length": 12
+    "length": 17
   },
   {
     "level": 3,

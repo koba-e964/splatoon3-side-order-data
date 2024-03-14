@@ -61,12 +61,12 @@ effects = [1.0, 0.8, 0.7, 0.6, 0.5, 0.25]
 level = 3
 [["サポート"]]
 name = "撃破インク回復"
-effects = [0.0, 0.02, 0.04, ]
+effects = [0.0, 0.02, 0.04, 0.06, ]
 level = 1
 to_next_level = 3
 [["サポート"]]
 name = "インクネバネバ"
-effects = [0.7, 0.45, ]
+effects = [0.7, 0.45, 0.3, ]
 level = 2
 to_next_level = 5
 [["サポート"]]
@@ -86,9 +86,9 @@ level = 2
 to_next_level = 5
 [["サポート"]]
 name = "ホーミング"
-effects = [0.0, 0.12, ]
-level = 1
-to_next_level = 3
+effects = [0.0, 0.12, 0.25, 0.33, 0.5, ]
+level = 2
+to_next_level = 5
 [["サポート"]]
 name = "チャージ時間"
 effects = [1.0, 0.8, 0.6, 0.47, 0.31, 0.03]
@@ -148,17 +148,14 @@ level = 2
 to_next_level = 5
 [["レンジ"]]
 name = "塗りドローンゲージ"
-effects = [
-    [0, 1, 2, 3, 4, 5],
-    [0.0, 1.0, 1.5, ], # スピナー
-]
-level = 1
-to_next_level = 3
+effects = [0.0, 1.0, 1.5, 2, ]
+level = 2
+to_next_level = 5
 [["レンジ"]]
 name = "塗りラッキーコンボ"
-effects = [999999999, 40, ]
-level = 1
-to_next_level = 3
+effects = [999999999, 40, 30, 20, ]
+level = 2
+to_next_level = 5
 [["レンジ"]]
 name = "おそくした敵ダメージ"
 effects = [1.0, 1.3, 1.45, 1.6, 1.7, 2.0]
@@ -181,10 +178,10 @@ effects = [1.0, 1.22, 1.45, 1.6, ]
 level = 1
 to_next_level = 3
 [["ムーブ"]]
-name = "???"
-effects = []
-level = 0
-to_next_level = 1
+name = "スライド回数"
+effects = [1, 2, 3, 4, 5, ]
+level = 2
+to_next_level = 5
 [["ムーブ"]]
 name = "チャージキープ"
 effects = []
@@ -230,9 +227,9 @@ to_next_level = 3
 
 [["ラッキー"]]
 name = "アーマー確率"
-effects = [0.005, 0.01, ]
-level = 1
-to_next_level = 3
+effects = [0.005, 0.01, 0.015, 0.02, 0.025, 0.03]
+level = 2
+to_next_level = 5
 [["ラッキー"]]
 name = "インクボトル確率"
 effects = [0.01, 0.04, 0.07, 0.1, 0.13, 0.2]
