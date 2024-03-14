@@ -26,10 +26,10 @@ name = "連続ヨコ斬り速度"
 effects = [1.0, 1.18, 1.37, 1.62, 2.0, 2.6]
 level = 3
 [["パワー"]]
-name = "???"
-effects = [1.0, ]
-level = 0
-to_next_level = 1
+name = "スピナー弾数"
+effects = [1.0, 1.21, 1.33, ]
+level = 1
+to_next_level = 3
 [["パワー"]]
 name = "メインショットダメージ(近)"
 effects = [1.0, 1.15, 1.3, 1.45, 1.6, ]
@@ -71,9 +71,9 @@ level = 2
 to_next_level = 5
 [["サポート"]]
 name = "ノックバック"
-effects = []
-level = 1
-to_next_level = 3
+effects = [0.0, 1.0, 2.0, 6.0, 10.0, ]
+level = 2
+to_next_level = 5
 [["サポート"]]
 name = "爆発ふき飛ばし"
 effects = [1.0, 1.17, 1.33, ]
@@ -104,36 +104,36 @@ effects = []
 level = 1
 to_next_level = 3
 [["サポート"]]
-name = "???"
-effects = []
-level = 0
-to_next_level = 1
+name = "再チャージ"
+effects = [false, true]
+level = 3
 
 [["レンジ"]]
 name = "メイン射程"
 effects = [
     [1.0, 1.25, ],
     [1.0, 1.4, ], # チャージャー
+    [1.0, 1.15, 1.2, 1.3, ], # スピナー
 ]
 level = 3
 [["レンジ"]]
 name = "爆発サイズ"
-effects = [1.0, 1.3, ]
+effects = [1.0, 1.3, 1.45, 1.6, ]
 level = 2
 to_next_level = 5
 [["レンジ"]]
 name = "メインショット貫通"
-effects = [0, 1, 2, ]
+effects = [0, 1, 2, 3, ]
 level = 1
 to_next_level = 3
 [["レンジ"]]
 name = "メインショットサイズ"
-effects = [1.0, 1.9, ]
+effects = [1.0, 1.9, 2.35, ]
 level = 1
 to_next_level = 3
 [["レンジ"]]
 name = "メインショット塗り"
-effects = [1.0, ]
+effects = [1.0, 1.5, 1.8, ]
 level = 1
 to_next_level = 3
 [["レンジ"]]
@@ -148,7 +148,10 @@ level = 2
 to_next_level = 5
 [["レンジ"]]
 name = "塗りドローンゲージ"
-effects = [0, 1, 2, 3, 4, 5]
+effects = [
+    [0, 1, 2, 3, 4, 5],
+    [0.0, 1.0, 1.5, ], # スピナー
+]
 level = 1
 to_next_level = 3
 [["レンジ"]]
@@ -158,7 +161,7 @@ level = 1
 to_next_level = 3
 [["レンジ"]]
 name = "おそくした敵ダメージ"
-effects = [1.0, 1.3, ]
+effects = [1.0, 1.3, 1.45, 1.6, 1.7, 2.0]
 level = 2
 to_next_level = 5
 
@@ -267,9 +270,8 @@ effects = [999999999, 200, 160, 130, 100, ]
 level = 3
 [["ドローン"]]
 name = "ドローンクイックボム"
-effects = [999999999, 180, ]
-level = 1
-to_next_level = 3
+effects = [999999999, 180, 150, 120, 90, 60]
+level = 3
 [["ドローン"]]
 name = "ドローンメガホンレーザー"
 effects = [999999999, 500, 460, ]
@@ -280,14 +282,12 @@ effects = [999999999, 550, 440, 360, 280, 180]
 level = 3
 [["ドローン"]]
 name = "ドローントラップ"
-effects = [999999999, 190, 160, ]
-level = 1
-to_next_level = 3
+effects = [999999999, 190, 160, 130, 100, 70]
+level = 3
 [["ドローン"]]
 name = "ドローンスプリンクラー"
 effects = [999999999, 10, 8, 6, 4, 2]
-level = 2
-to_next_level = 5
+level = 3
 [["ドローン"]]
 name = "ドローンアイテム"
 effects = [999999999, 600, 500, 400, 300, 200]

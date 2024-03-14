@@ -32,11 +32,11 @@ $ toml get palette.toml . | jq 'to_entries | map(.value) | flatten | group_by(.l
 [
   {
     "level": 0,
-    "length": 3
+    "length": 1
   },
   {
     "level": 1,
-    "length": 27
+    "length": 25
   },
   {
     "level": 2,
@@ -44,7 +44,7 @@ $ toml get palette.toml . | jq 'to_entries | map(.value) | flatten | group_by(.l
   },
   {
     "level": 3,
-    "length": 20
+    "length": 24
   }
 ]
 ```
