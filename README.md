@@ -27,11 +27,9 @@ $ toml get palette.toml . | jq 'map_values(map(select(.level != 3).name))'
 {
   "パワー": [
     "インクショットダメージ",
-    "爆発ダメージ",
     "音波ダメージ",
     "スピナー弾数",
     "メインショットダメージ(近)",
-    "メインショットダメージ(遠)",
     "インクパチパチ"
   ],
   "サポート": [
@@ -47,10 +45,7 @@ $ toml get palette.toml . | jq 'map_values(map(select(.level != 3).name))'
   "レンジ": [
     "メインショットサイズ",
     "メインショット塗り",
-    "メイントツゲキ塗り",
-    "スペシャル増加量",
-    "塗りラッキーコンボ",
-    "おそくした敵ダメージ"
+    "メイントツゲキ塗り"
   ],
   "ムーブ": [
     "塗り進み速度",
@@ -73,15 +68,15 @@ $ toml get palette.toml . | jq 'to_entries | map(.value) | flatten | group_by(.l
 [
   {
     "level": 1,
-    "length": 13
-  },
-  {
-    "level": 2,
     "length": 11
   },
   {
+    "level": 2,
+    "length": 8
+  },
+  {
     "level": 3,
-    "length": 38
+    "length": 43
   }
 ]
 ```
