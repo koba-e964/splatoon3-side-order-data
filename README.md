@@ -30,9 +30,7 @@ $ toml get palette.toml . | jq 'map_values(map(select(.level != 3).name))'
     "スピナー弾数"
   ],
   "サポート": [
-    "爆発ふき飛ばし",
     "ブレ軽減",
-    "ホーミング",
     "カサ復活時間"
   ],
   "レンジ": [
@@ -63,11 +61,11 @@ $ toml get palette.toml . | jq 'to_entries | map(.value) | flatten | group_by(.l
   },
   {
     "level": 2,
-    "length": 6
+    "length": 4
   },
   {
     "level": 3,
-    "length": 52
+    "length": 54
   }
 ]
 ```
