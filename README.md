@@ -30,17 +30,12 @@ $ toml get palette.toml . | jq 'map_values(map(select(.level != 3).name))'
     "スピナー弾数"
   ],
   "サポート": [
-    "インク回復速度",
-    "インクネバネバ",
-    "ノックバック",
     "爆発ふき飛ばし",
     "ブレ軽減",
     "ホーミング",
-    "チャージ時間",
     "カサ復活時間"
   ],
   "レンジ": [
-    "メインショット塗り",
     "メイントツゲキ塗り"
   ],
   "ムーブ": [
@@ -64,15 +59,15 @@ $ toml get palette.toml . | jq 'to_entries | map(.value) | flatten | group_by(.l
 [
   {
     "level": 1,
-    "length": 7
+    "length": 4
   },
   {
     "level": 2,
-    "length": 8
+    "length": 6
   },
   {
     "level": 3,
-    "length": 47
+    "length": 52
   }
 ]
 ```

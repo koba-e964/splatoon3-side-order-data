@@ -43,9 +43,8 @@ level = 3
 
 [["サポート"]]
 name = "インク回復速度"
-effects = [1.0, 1.25, 1.5, 1.75, ]
-level = 2
-to_next_level = 5
+effects = [1.0, 1.25, 1.5, 1.75, 2.0, 3.0]
+level = 3
 [["サポート"]]
 name = "インク効率(メイン)"
 effects = [1.0, 0.8, 0.7, 0.6, 0.5, 0.25]
@@ -60,19 +59,17 @@ effects = [0.0, 0.02, 0.04, 0.06, 0.1, 0.2]
 level = 3
 [["サポート"]]
 name = "インクネバネバ"
-effects = [0.7, 0.45, 0.3, ]
-level = 2
-to_next_level = 5
+effects = [0.7, 0.45, 0.3, 0.2, 0.1, 0.01]
+level = 3
 [["サポート"]]
 name = "ノックバック"
-effects = [0.0, 1.0, 2.0, 6.0, 10.0, ]
-level = 2
-to_next_level = 5
+effects = [0.0, 1.0, 2.0, 6.0, 10.0, 20.0]
+level = 3
 [["サポート"]]
 name = "爆発ふき飛ばし"
-effects = [1.0, 1.17, 1.33, ]
-level = 1
-to_next_level = 3
+effects = [1.0, 1.17, 1.33, 1.67, 2.0, ]
+level = 2
+to_next_level = 5
 [["サポート"]]
 name = "ブレ軽減"
 effects = [1.0, 0.8, 0.6, ]
@@ -86,8 +83,7 @@ to_next_level = 5
 [["サポート"]]
 name = "チャージ時間"
 effects = [1.0, 0.8, 0.6, 0.47, 0.31, 0.03]
-level = 1
-to_next_level = 3
+level = 3
 [["サポート"]]
 name = "パージロック"
 effects = [false, true]
@@ -124,9 +120,8 @@ effects = [1.0, 1.9, 2.35, 2.8, 3.1, 4.0]
 level = 3
 [["レンジ"]]
 name = "メインショット塗り"
-effects = [1.0, 1.5, 1.8, ]
-level = 1
-to_next_level = 3
+effects = [1.0, 1.5, 1.8, 2.1, 2.4, 3.1]
+level = 3
 [["レンジ"]]
 name = "メイントツゲキ塗り"
 effects = [1.0, ]
