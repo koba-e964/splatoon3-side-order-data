@@ -26,11 +26,8 @@ toml get palette.toml . | jq 'map_values(map(select(.level != 3).name))'
 $ toml get palette.toml . | jq 'map_values(map(select(.level != 3).name))'
 {
   "パワー": [
-    "インクショットダメージ",
     "音波ダメージ",
-    "スピナー弾数",
-    "メインショットダメージ(近)",
-    "インクパチパチ"
+    "スピナー弾数"
   ],
   "サポート": [
     "インク回復速度",
@@ -43,7 +40,6 @@ $ toml get palette.toml . | jq 'map_values(map(select(.level != 3).name))'
     "カサ復活時間"
   ],
   "レンジ": [
-    "メインショットサイズ",
     "メインショット塗り",
     "メイントツゲキ塗り"
   ],
@@ -68,7 +64,7 @@ $ toml get palette.toml . | jq 'to_entries | map(.value) | flatten | group_by(.l
 [
   {
     "level": 1,
-    "length": 11
+    "length": 7
   },
   {
     "level": 2,
@@ -76,7 +72,7 @@ $ toml get palette.toml . | jq 'to_entries | map(.value) | flatten | group_by(.l
   },
   {
     "level": 3,
-    "length": 43
+    "length": 47
   }
 ]
 ```
