@@ -33,13 +33,9 @@ $ toml get palette.toml . | jq 'map_values(map(select(.level != 3).name))'
     "ブレ軽減",
     "カサ復活時間"
   ],
-  "レンジ": [
-    "メイントツゲキ塗り"
-  ],
+  "レンジ": [],
   "ムーブ": [
-    "塗り進み速度",
-    "スライド回数",
-    "移動スペシャル"
+    "スライド回数"
   ],
   "ラッキー": [],
   "ドローン": []
@@ -57,15 +53,15 @@ $ toml get palette.toml . | jq 'to_entries | map(.value) | flatten | group_by(.l
 [
   {
     "level": 1,
-    "length": 4
+    "length": 2
   },
   {
     "level": 2,
-    "length": 4
+    "length": 3
   },
   {
     "level": 3,
-    "length": 54
+    "length": 57
   }
 ]
 ```
