@@ -26,9 +26,7 @@ toml get palette.toml . | jq 'map_values(map(select(.level != 3).name))'
 $ toml get palette.toml . | jq 'map_values(map(select(.level != 3).name))'
 {
   "パワー": [],
-  "サポート": [
-    "カサ復活時間"
-  ],
+  "サポート": [],
   "レンジ": [],
   "ムーブ": [],
   "ラッキー": [],
@@ -46,12 +44,7 @@ toml get palette.toml . | jq 'to_entries | map(.value) | flatten | group_by(.lev
 $ toml get palette.toml . | jq 'to_entries | map(.value) | flatten | group_by(.level) | map({level: .[0].level, length: length})'
 [
   {
-    "level": 1,
-    "length": 1
-  },
-  {
     "level": 3,
-    "length": 61
+    "length": 62
   }
-]
-```
+]```
